@@ -1,1 +1,128 @@
+@media only screen and (min-width:768px)  {
 
+body{
+    background: url("https://getwallpapers.com/wallpaper/full/2/7/1/1224103-plain-hd-wallpapers-1920x1200-ipad-retina.jpg");
+}
+
+h1 {
+    font-family: cursive;
+    font-weight:lighter;
+    text-align: center;
+    color:white
+}
+
+h2 {
+    font-weight:lighter;
+    font-style:italic;
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+nav {
+    background-color:white;
+    text-align: center;
+    overflow:hidden;
+}
+
+nav a{
+
+    float:none;
+    text-align:center;
+    padding:10px 10px;
+    color:black;
+    display:block;
+    text-decoration: none;
+   
+
+}
+
+nav a:hover {
+    background-color:white;
+    transform:scale(1.05)
+}
+
+nav a.active {
+    background-color:black;
+    color:white
+}
+
+h3 {
+    font-family: cursive;
+    font-weight:lighter;
+    text-align: center;
+    color:black;
+}
+
+p {
+    font-family:sans-serif;
+    font-weight: lighter;
+    text-align:center;
+    font-size:15px;
+    color:black;
+}
+
+.box {
+    width:100%;
+    margin: 10px;
+    float:none;
+    overflow:hidden;
+}
+
+
+.container {
+    width:100%;
+    margin:0;
+    margin-top:10px;
+}
+
+.box {
+    float:left;
+    width: 23.5%;
+    overlay:hidden;
+}
+
+.card:hover{
+    max-width:300px;
+    margin:auto;
+    text-align:center;
+    font-family:Arial;
+    transform:scale(1.05);
+}
+
+.price {
+    color:grey;
+    font-size:20px;
+}
+
+.card button {
+    border:none;
+    padding:10px;
+    color:black;
+    background-color:aqua;
+    text-align:center;
+    cursor:pointer;
+    width:100%;
+    height: 35px;
+    font-size:15px;
+    font-family:'Times New Roman';
+}
+
+.card button:hover {
+    opacity:0.5;
+}
+
+div {
+    text-align: center;
+    background-color:white;
+}
+
+form {
+    text-align: center;
+    color:white;
+}
+
+a {
+    color:white;
+}
+}
